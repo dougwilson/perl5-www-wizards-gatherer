@@ -1,0 +1,52 @@
+---
+abstract: 'Access to Magic the Gathering Gatherer'
+author:
+  - 'Douglas Christopher Wilson <doug@somethingdoug.com>'
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3607'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: WWW-Wizards-Gatherer
+no_index:
+  directory:
+    - inc
+    - t
+    - xt
+provides:
+  WWW::Wizards::Gatherer:
+    file: lib/WWW/Wizards/Gatherer.pm
+    version: 0.001
+  WWW::Wizards::Gatherer::Card:
+    file: lib/WWW/Wizards/Gatherer/Card.pm
+    version: 0.001
+  WWW::Wizards::Gatherer::Results:
+    file: lib/WWW/Wizards/Gatherer/Results.pm
+    version: 0.001
+  WWW::Wizards::Gatherer::Utils:
+    file: lib/WWW/Wizards/Gatherer/Utils.pm
+    version: 0.001
+requires:
+  Carp: 0
+  Data::Stream::Bulk::DoneFlag: 0.08
+  Encode: 0
+  HTML::HTML5::Parser: 0.101
+  List::MoreUtils: 0
+  Moose: 1.05
+  Moose::Util::TypeConstraints: 0
+  MooseX::StrictConstructor: 0.09
+  MooseX::Types::Common::String: 0
+  MooseX::Types::LWP::UserAgent: 0.02
+  MooseX::Types::Moose: 0
+  MooseX::Types::URI: 0
+  URI: 0
+  URI::QueryParam: 0
+  namespace::clean: 0.10
+  perl: 5.008003
+resources:
+  homepage: http://github.com/dougwilson/perl5-www-wizards-gatherer/
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/dougwilson/perl5-www-wizards-gatherer.git
+version: 0.001
