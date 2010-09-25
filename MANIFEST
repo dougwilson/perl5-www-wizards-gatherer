@@ -1,0 +1,9 @@
+Build.PL
+lib/WWW/Wizards/Gatherer.pm
+lib/WWW/Wizards/Gatherer/Card.pm
+lib/WWW/Wizards/Gatherer/Results.pm
+lib/WWW/Wizards/Gatherer/Utils.pm
+MANIFEST			This list of files
+README
+LICENSE
+META.yml
